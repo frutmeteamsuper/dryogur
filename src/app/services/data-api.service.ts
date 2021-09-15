@@ -35,7 +35,7 @@ export class DataApiService {
 		.pipe(map(data => data));
 	}
 	getAllTixs(){
-		const url_api = 'https://db.buckapi.com:3025/api/tixes?filter[where][status]=activated';
+		const url_api = 'https://db.buckapi.com:3025/api/tixes?filter[where][status]=yogurt';
 		return this.http.get(url_api);
 	}
  		getTamano(){
